@@ -28,7 +28,6 @@ namespace SE210_Project1
 
             var processor = new Processor(numOfPages, numOfFrames, vmFile, addressFile, logFile, pageSize);
             processor.TranslateAll();
-            //TODO: call processor to translate addresses
         }
     }
 }
